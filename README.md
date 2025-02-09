@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# random_team_generator
-Random Team Generator is a React-based application designed to help users create random teams
-=======
 Random Team Generator
 React Vite TailwindCSS Supabase
 
@@ -106,4 +102,3 @@ Utility Libraries
 Lodash : Utility functions for common tasks.
 clsx : Conditional class names for TailwindCSS.
 Dotenv : Manages environment variables.
->>>>>>> 3785fd5 (Initial commit)
