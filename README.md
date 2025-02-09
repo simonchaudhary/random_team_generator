@@ -16,8 +16,6 @@ Random Team Generator is a web application built with React.js and TypeScript th
 
 - Uses React Router for navigation.
 
-- Optimized performance \* with Lodash utilities.
-
 ## Tech Stack
 
 - Frontend: React.js, TypeScript, React Router, React Hook Form, React Query, Tailwind CSS
