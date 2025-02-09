@@ -30,13 +30,15 @@ Random Team Generator is a web application built with React.js and TypeScript th
 
 ## Installation
 
+- Node.js Version Required: >= 18.x
+
 - Clone the repository:
 
 `git clone https://github.com/your-username/random-team-generator.git `
 
 - Navigate to the project directory:
 
-`cd random-team-generator`
+`cd random-team-generator/app`
 
 - Install dependencies:
 
@@ -69,25 +71,6 @@ Random Team Generator is a web application built with React.js and TypeScript th
 - Preview Production Build:
 
 `npm run preview`
-
-## Folder Structure
-
-random-team-generator/
-├── src/
-│ ├── components/ # Reusable React components
-│ ├── hooks/ # Custom hooks
-│ ├── pages/ # Page components for routing
-│ ├── utils/ # Utility functions
-│ ├── styles/ # Tailwind CSS configurations
-│ ├── App.tsx # Main app component
-│ ├── main.tsx # React entry point
-├── public/ # Static assets
-├── .eslintrc.js # ESLint configuration
-├── .prettierrc # Prettier configuration
-├── tailwind.config.js # Tailwind CSS configuration
-├── vite.config.ts # Vite configuration
-├── package.json # Project dependencies
-├── tsconfig.json # TypeScript configuration
 
 ## Contribution
 
