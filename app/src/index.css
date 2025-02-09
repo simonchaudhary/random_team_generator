@@ -1,0 +1,73 @@
+@import 'tailwindcss';
+
+/* Reset CSS */
+html,
+body {
+  height: 100%;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+textarea,
+select {
+  font: inherit;
+  outline: none;
+}
+
+*::-webkit-scrollbar {
+  height: 7px;
+  width: 7px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #d1d5dc;
+  border-radius: 4px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #99a1af;
+}
+
+/* Toast */
+.toast .Toastify .toast-progress-bar {
+  background: white;
+}
+
+.toast .Toastify .Toastify-toast {
+  padding: 0 !important;
+}
+
+.Toastify__toast {
+  padding: 0 !important;
+}
+
+.toast .Toastify .Toastify-toast-body {
+  border-radius: 0.125rem; /* Equivalent to Tailwind's rounded-sm */
+  margin: 0;
+  padding: 0;
+}
+
+.Toastify__toast > div {
+  width: 100%;
+}
